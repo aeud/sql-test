@@ -8,14 +8,14 @@ Here are some tables tables:
 column | type | key
 --- | --- | ---
 created_at | datetime |
-order_id | int |
+order_id | int | foreign key
 line_item_id | int | primary key
-product_id | int |
+product_id | int | foreign key
 position | int |
 quantity | int |
 unit_price_before_discount_sgd | float |
 unit_price_after_discount_sgd | float |
-client_id | int |
+client_id | int | foreign key
 
 
 ### products
@@ -38,13 +38,13 @@ name | string |
 
 ## Questions
 
-1) What was the daily revenues of May 2016?
-2) How would you update your query to display the daily revenues of the last 10 days?
-3) What are the brand margins
-    a) based on 2016 orders
-    b) based on the products' sale and purchase prices
-4) We started to sell the brand "Kat Von D" on May 1st.
-    a) what is the performance of the Kat Von D brand: sales, average order value, margin?
-    b) for returning clients, which other brands were they buying before buying a Kat Von D product?
+1. What was the daily revenues of May 2016?
+2. How would you update your query to display the daily revenues of the last 10 days?
+3. What are the brand margins
+  1. based on 2016 orders
+  2. based on the products' sale and purchase prices
+4. We started to sell the brand "Kat Von D" on May 1st.
+  1. what is the performance of the Kat Von D brand: sales, average order value, margin?
+  2. for returning clients, which other brands were they buying before buying a Kat Von D product?
 
 * You have 25 minutes *
