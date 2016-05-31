@@ -43,6 +43,13 @@ column | type | key
 user_id | int | primary key
 email | string |
 
+### orders
+
+column | type | key
+--- | --- | ---
+order_id | int | primary key
+country | string |
+
 ## Questions
 
 1. What was the daily revenues of May 2016?
