@@ -47,4 +47,4 @@ name | string |
   1. what is the performance of the Kat Von D brand: sales, average order value, margin?
   2. for returning clients, which other brands were they buying before buying a Kat Von D product?
 
-* You have 25 minutes *
+**You have 25 minutes**
