@@ -18,11 +18,11 @@ Here are some tables tables:
 
 ### products
 
-|product_id|int|primary key|
-|brand_id|int||
-|name|string||
-|sale_price|float||
-|purchase_cost|float||
+| product_id | int | primary key |
+| brand_id | int | |
+| name | string | |
+| sale_price | float | |
+| purchase_cost | float | |
 
 
 ### brands
