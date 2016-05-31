@@ -5,30 +5,30 @@ Here are some tables tables:
 
 ### order_items
 
-- created_at datetime
-- order_id int
-- line_item_id int, primary key
-- product_id int
-- position int
-- quantity int
-- unit_price_before_discount_sgd float
-- unit_price_after_discount_sgd float
-- client_id int
+|created_at|datetime||
+|order_id|int||
+|line_item_id|int|primary key|
+|product_id|int||
+|position|int||
+|quantity|int||
+|unit_price_before_discount_sgd|float||
+|unit_price_after_discount_sgd|float||
+|client_id|int||
 
 
 ### products
 
-- product_id int, primary key
-- brand_id int
-- name string
-- sale_price float
-- purchase_cost float
+|product_id|int|primary key|
+|brand_id|int||
+|name|string||
+|sale_price|float||
+|purchase_cost|float||
 
 
 ### brands
 
-- brand_id int, primary key
-- name string
+|brand_id|int|primary key|
+|name|string||
 
 ## Questions
 
