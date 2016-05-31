@@ -36,6 +36,13 @@ column | type | key
 brand_id | int | primary key
 name | string |
 
+### users
+
+column | type | key
+--- | --- | ---
+user_id | int | primary key
+email | string |
+
 ## Questions
 
 1. What was the daily revenues of May 2016?
